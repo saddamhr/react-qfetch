@@ -1,0 +1,40 @@
+{
+  "name": "react-qfetch",
+  "version": "1.0.0",
+  "description": "React-QFetch is a powerful React library for efficient data fetching and server-side state management. It provides easy-to-use hooks for querying, caching, and managing asynchronous data, with plans to expand into full server-side state management and beyond.",
+  "keywords": [
+    "react",
+    "data-fetching",
+    "state-management",
+    "query",
+    "caching",
+    "hooks",
+    "server-side",
+    "asynchronous",
+    "react-hooks",
+    "data"
+  ],
+  "homepage": "https://github.com/mattpocock/tt-package-demo",
+  "bugs": {
+    "url": "https://github.com/mattpocock/tt-package-demo/issues"
+  },
+  "author": "Md. Saddam Hossain <saddambubt65@gmail.com> (https://github.com/saddamhr)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saddamhr/react-qfetch.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsup",
+    "format": "prettier --write ."
+  }
+}
